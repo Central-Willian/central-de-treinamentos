@@ -72,6 +72,7 @@ main{
 
 .curse:hover{
 	background-color: var(--color4);
+	color: var(--color1);
 }
 
 main a{
