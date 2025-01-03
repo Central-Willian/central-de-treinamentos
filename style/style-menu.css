@@ -1,0 +1,97 @@
+@charset 'UTF-8';
+
+@font-face{
+	font-family: 'Jomhuria';
+	src: url(../src/font/Jomhuria-Regular.ttf);
+}
+
+:root{
+	--color1: #1E1E1E;
+	--color2: #2B6423;
+	--color3: #77C6FF;
+	--color4: #D9D9D9;
+	--color5: #333333;
+}
+
+*{
+	font-family: 'Jomhuria';
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+body{
+	background-color: var(--color1);
+}
+
+header{
+	height: 90px;
+}
+
+h1{
+	font-size: 5em;
+	padding: 5px 0px 5px 50px;
+	color: var(--color4);
+}
+
+nav{
+	height: 30px;
+}
+
+nav ul{
+	display: flex;
+	margin-left: 21px;
+}
+
+nav a{
+	color: var(--color3);
+	margin: 0px 9px;
+}
+
+nav li{
+	font-size: 1.5em;
+}
+
+nav a:hover{
+	color: var(--color4);
+}
+
+main{
+	padding: 127px 0px;
+}
+
+.curse{
+	height: 100px;
+	width: 900px;
+	margin: 31px auto;
+	border-radius: 50px;
+	background-color: var(--color5);
+}
+
+.curse:hover{
+	background-color: var(--color4);
+}
+
+main a{
+	display: flex;
+}
+
+.icon{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+h2{
+	font-size: 3em;
+	color: var(--color3);
+	margin: auto 9px;
+}
+
+footer>p{
+	font-size: 1.5em;
+	text-align: center;
+	color: var(--color4);
+}

@@ -1,0 +1,79 @@
+@charset 'UTF-8';
+
+@font-face{
+	font-family: 'Jomhuria';
+	src: url(../src/font/Jomhuria-Regular.ttf);
+}
+
+:root{
+	--color1: #1E1E1E;
+	--color2: #2B6423;
+	--color3: #77C6FF;
+	--color4: #D9D9D9;
+	--color5: #333333;
+}
+
+*{
+	font-family: 'Jomhuria';
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+body{
+	background-color: var(--color1);
+}
+
+header{
+	height: 90px;
+}
+
+h1{
+	font-size: 5em;
+	padding: 5px 0px 5px 50px;
+	color: var(--color4);
+}
+
+nav{
+	height: 30px;
+}
+
+nav ul{
+	display: flex;
+	margin-left: 21px;
+}
+
+nav a{
+	color: var(--color3);
+	margin: 0px 9px;
+}
+
+nav li{
+	font-size: 1.5em;
+}
+
+nav a:hover{
+	color: var(--color4);
+}
+
+h2{
+	font-size: 3em;
+	text-align: center;
+	margin-top: 85px;
+	color: var(--color4);
+}
+
+.List{
+	font-size: 2em;
+	width: 30%;
+	margin: 50px auto;
+	color: var(--color4);
+}
+
+footer p{
+	font-size: 1.50em;
+	text-align: center;
+	color: var(--color4);
+}
