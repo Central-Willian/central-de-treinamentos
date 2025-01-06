@@ -58,39 +58,24 @@ nav a:hover{
 	color: var(--color4);
 }
 
-main{
-	padding: 127px 0px;
-}
-
-.curse{
-	height: 100px;
-	width: 900px;
-	margin: 31px auto;
-	border-radius: 50px;
-	background-color: var(--color5);
-}
-
-.curse:hover{
-	background-color: var(--color4);
-}
-
-main a{
-	display: flex;
-}
-
-.icon{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-}
-
 h2{
-	font-size: 3em;
-	color: var(--color3);
-	margin: auto 9px;
+	font-size: 1.5em;
+	text-align: center;
+	color: var(--color4);
 }
 
-footer>p{
+iframe{
+	width: 60%;
+	height: 400px;
+	display: flex;
+	margin: 30px auto;
+}
+
+footer{
+	height: 30px;
+}
+
+footer p{
 	font-size: 1.5em;
 	text-align: center;
 	color: var(--color4);
